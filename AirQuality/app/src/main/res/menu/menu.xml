@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:title="My option">
+    <menu>
+    <item android:id="@+id/menu"
+        android:icon="@drawable/itemmenu"
+        android:title="Menu">
+
+    </item>
+        <item android:id="@+id/lpg"
+            android:title="LPG"
+            android:icon="@drawable/lpg">
+        </item>
+        <item android:id="@+id/propan"
+            android:title="Propan"
+            android:icon="@drawable/propan">
+        </item>
+        <item android:id="@+id/Co"
+            android:title="CO"
+            android:icon="@drawable/itemco">
+        </item>
+        <item android:id="@+id/Co2"
+            android:title="CO2"
+            android:icon="@drawable/itemco2">
+        </item>
+        <item android:id="@+id/temp"
+            android:title="Celzius"
+            android:icon="@drawable/teplota">
+        </item>
+        <item android:id="@+id/hum"
+            android:title="Humidity"
+            android:icon="@drawable/vlhkost">
+        </item>
+        <item android:id="@+id/dust"
+            android:title="Dust"
+            android:icon="@drawable/itemprach">
+        </item>
+        <item android:id="@+id/goback"
+            android:icon="@drawable/itemgoback"
+            android:title="Back"></item>
+
+
+        <item android:id="@+id/exit"
+            android:icon="@drawable/itemexit"
+            android:title="Exit">
+
+        </item>
+    </menu>
+</item>
+
+</menu>

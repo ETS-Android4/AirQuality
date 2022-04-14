@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "391263893986",
+    "firebase_url": "https://airqualityarduino-default-rtdb.firebaseio.com",
+    "project_id": "airqualityarduino",
+    "storage_bucket": "airqualityarduino.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391263893986:android:b45f1433c64529f48ae1bb",
+        "android_client_info": {
+          "package_name": "com.example.airquality"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391263893986-7t1c5h1sabj76nsv0esesfpvi1nu701e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJL_uE09e6SMdmGapVVYRdnoKsZToE3l4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391263893986-7t1c5h1sabj76nsv0esesfpvi1nu701e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

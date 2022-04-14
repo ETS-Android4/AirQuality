@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.airquality">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AirQuality">
+        <activity android:name=".DustDetails"></activity>
+        <activity android:name=".PropanDetails" />
+        <activity android:name=".LPGDetails" />
+        <activity android:name=".HumidityDetails" />
+        <activity android:name=".LPG" />
+        <activity android:name=".Propan" />
+        <activity android:name=".Dust" />
+        <activity android:name=".Humidity" />
+        <activity android:name=".skuska" />
+        <activity android:name=".TemperatureDetails" />
+        <activity android:name=".Temperature" />
+        <activity android:name=".OxidCo2Details" />
+        <activity android:name=".OxidCo2" />
+        <activity android:name=".OxidCoDetails" />
+        <activity android:name=".OxidCO" />
+        <activity android:name=".NextData" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
